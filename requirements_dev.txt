@@ -7,4 +7,5 @@ dotenv==0.9.9
 pytest>=7.0.0
 pytest-mock>=3.6.0
 moto>=4.0.0
-pytest 
+pytest
+flake8
