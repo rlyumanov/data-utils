@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="data_utils",
-    version="0.1.0",
-    author="Your Name",
+    version="0.1.1",
+    author="r.lyumanov",
     author_email="rlyumanov@gmail.com",
     description="",
     long_description=long_description,
