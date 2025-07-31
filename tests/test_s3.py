@@ -236,7 +236,7 @@ class TestS3Uploader:
 
         mock_client.upload_file.assert_not_called()
         captured = capsys.readouterr()
-        assert "Ошибка:файл /path/does/not/exist.txt не найден" in captured.out
+        assert "Ошибка: файл /path/does/not/exist.txt не найден." in captured.out
 
     def test_upload_file_skip_if_exists_true(self, s3_uploader, temp_file):
         """Тест пропуска загрузки, если файл не изменился."""
