@@ -23,4 +23,14 @@ setup(
         "pandas>=2.0.0",
         "pyarrow>=21.0.0",
     ],
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-mock>=3.6.0",
+            "pytest-cov>=4.0.0",
+            "moto>=4.0.0",
+            "black",
+            "flake8",
+        ]
+    },
 )
