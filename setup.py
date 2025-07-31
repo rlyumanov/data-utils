@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="data_utils",
-    version="0.1.4",
+    version="0.1.5",
     author="r.lyumanov",
     author_email="rlyumanov@gmail.com",
     description="",
@@ -23,6 +23,7 @@ setup(
         "pandas>=2.0.0",
         "pyarrow>=21.0.0",
     ],
+
     extras_require={
         "dev": [
             "pytest>=7.0.0",
@@ -33,4 +34,6 @@ setup(
             "flake8",
         ]
     },
+)
+
 )
